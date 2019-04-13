@@ -23,3 +23,6 @@ Route::get('/foo', function () {
 //Route::get('/user', 'UserController@index');
 Route::get('/', 'HelloController@index');
 //Route::controller("about","HelloController@index"); // Controller名@クラス名で指定
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
