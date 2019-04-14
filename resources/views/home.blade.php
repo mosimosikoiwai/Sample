@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    ここに自分の考えた最強のコンテンツを置く
                 </div>
             </div>
         </div>

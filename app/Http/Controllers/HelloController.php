@@ -19,6 +19,7 @@ class HelloController extends Controller
         foreach($users as $val){
           var_dump($val->name);
         }
-        return view('index',compact('hello','hello_array'));
+        //return view('aute/login',compact('hello','hello_array'));
+        return view('login');
     }
 }
